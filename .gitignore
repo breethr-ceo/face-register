@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env*
+!.env.example
+.vercel/
+public/models/*
+public/vendor/
+playwright-report/
+test-results/
+.vercel

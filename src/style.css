@@ -1,0 +1,13 @@
+:root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#202420;background:#fff;font-size:15px;font-synthesis:none}
+*{box-sizing:border-box}body{margin:0}[hidden]{display:none!important}
+main{max-width:480px;margin:24px auto;padding:0 16px;padding-bottom:env(safe-area-inset-bottom)}
+button,input{font:inherit}button{cursor:pointer;min-height:46px;border:1px solid #d8ddd8;border-radius:7px;padding:10px 14px;font-weight:600;background:#fff;color:inherit}
+button:disabled{opacity:.45;cursor:not-allowed}button:focus-visible,input:focus-visible{outline:3px solid #719b85;outline-offset:2px}
+.tabs{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:20px}.tabs .selected,.primary{background:#234c38;border-color:#234c38;color:#fff}
+label{display:block;font-size:14px;margin-bottom:7px}input:not([type=checkbox]){width:100%;height:46px;border:1px solid #d8ddd8;border-radius:7px;padding:10px 12px;margin-bottom:16px}
+.photo-area{position:relative;aspect-ratio:4/3;background:#f4f5f4;border:1px solid #e1e4e1;border-radius:8px;overflow:hidden;display:flex;align-items:center;justify-content:center}
+#photo-empty{color:#777f78;font-size:13px}video,canvas{display:block;width:100%;height:100%;object-fit:contain}.clear{position:absolute;right:8px;top:8px;width:44px;padding:0;background:#fffffff2}
+.photo-actions{display:flex;gap:8px;margin-top:10px}.photo-actions>button{flex:1}.consent{display:flex;gap:9px;align-items:flex-start;font-size:12px;line-height:1.5;color:#596159;margin:18px 0}.consent input{accent-color:#234c38;width:18px;height:18px;flex-shrink:0;margin:0}.submit{width:100%}
+.notice{padding:12px;background:#fff8e5;border-radius:7px;margin-bottom:16px;font-size:13px}.notice p{margin:5px 0 0}#login{margin-bottom:24px}h2{font-size:18px;margin:0 0 16px}#login .primary{width:100%}
+#result{margin-top:16px;padding:14px;border-radius:7px}#result h3{font-size:16px;margin:0 0 8px}#result p{font-size:13px;line-height:1.5;margin:6px 0 0}.success{background:#eef5ed}.warning{background:#fff8e5}.text-button{display:block;margin:12px auto 0;border:0;font-size:13px;color:#596159}#status{font-size:13px;line-height:1.5;margin-top:12px}#status:empty{display:none}.error{color:#a63830}
+@media(max-width:480px){main{margin-top:16px}}
